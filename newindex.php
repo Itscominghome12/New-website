@@ -7,10 +7,15 @@
 <div class="jumbotron text-center"> 
  
 </div>
+
+
+
+<p>Main content</p>
   
 
 
-</body>
+<?php include("Newfooter.html");?>
+
 
 
 
