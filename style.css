@@ -148,3 +148,87 @@ a {
   	height: auto;	
   }
 }
+
+
+/* Nav Bar hover effects */
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+body {
+  margin: 0px;
+}
+nav {
+  margin-top: 40px;
+  padding: 24px;
+  text-align: right;
+  font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+}
+#nav-1 {
+  background: #fff;
+}
+#nav-2 {
+  background: #5175C0;
+}
+#nav-3 {
+  background: #EEA200;
+}
+
+.link-1 {
+  transition: 0.3s ease;
+  background: #fff;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid #7BC342;
+  border-bottom: 4px solid #7BC342;
+  padding: 20px 0;
+  margin: 0 20px;
+}
+.link-1:hover {
+  border-top: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  padding: 6px 0; 
+}
+
+/* About page styling */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
