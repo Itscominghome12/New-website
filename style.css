@@ -46,6 +46,13 @@ a {
   text-decoration: none;
 }
 
+.logo {
+    
+  width: 24%;
+    height: auto;
+    
+}
+
 /* menu */
 
 .header .menu {
@@ -159,19 +166,15 @@ body {
 }
 nav {
   margin-top: 40px;
-  padding: 24px;
+  padding: 30px;
   text-align: right;
-  font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+  font-family: sans-serif;
+  
 }
 #nav-1 {
   background: #fff;
 }
-#nav-2 {
-  background: #5175C0;
-}
-#nav-3 {
-  background: #EEA200;
-}
+
 
 .link-1 {
   transition: 0.3s ease;
@@ -190,6 +193,8 @@ nav {
   padding: 6px 0; 
 }
 }
+
+
 /* About page styling */
 
 body {
@@ -248,6 +253,25 @@ html {
     
     padding: 10px;
 }
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+
+
+
+
+
 
 
 
@@ -349,6 +373,7 @@ html {
 
 
 
+
 /* Contact styling */
 
 * {
@@ -377,14 +402,35 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Style the container/contact section */
+.contactimg {
+    
+    padding: 10px;
+    width: 65%;
+}
+
+.containerw
+
+{
+    background-color: #474e5d;
+  color: white;
+    padding: 40px;
+    
+}
+
+.containerl
+
+{
+  background-color: white;
+padding: 20px
+}
+
+
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
 }
 
-/* Create two columns that float next to eachother */
 .column {
   float: left;
   width: 50%;
@@ -392,7 +438,7 @@ input[type=submit]:hover {
   padding: 20px;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
@@ -407,10 +453,9 @@ input[type=submit]:hover {
   }
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+
+
+
 
 html {
   box-sizing: border-box;
@@ -432,12 +477,6 @@ html {
   margin: 8px;
 }
 
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #474e5d;
-  color: white;
-}
 
 .container {
   padding: 0 16px;
@@ -453,17 +492,7 @@ html {
   color: grey;
 }
 
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
+
 
 .button:hover {
   background-color: #555;
@@ -487,10 +516,28 @@ html {
    
 }
 
-.h3
-{
-    
-font-weight: bolder;
 
+.bold {
+    
+    
+    font-weight: bold;
 }
+
+.header4 {
+    
+    
+    font-weight: lighter;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
 
